@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Overlock&family=Passion+One&family=Poiret+One&family=Quicksand:wght@300;400;700&display=swap');
+
+body {
+  font-weight: 400;
+  font-family: 'Quicksand', sans-serif;
+  background-color: rgb(255, 255, 250);
+}
+
+.primary-color {
+  color: rgb(255, 255, 250) !important;
+}
+
+hr {
+  border-top-style: solid !important;
+  border-right-style: solid !important;
+  border-bottom-style: solid !important;
+  border-left-style: solid !important;
+  border-top-color: #52734D !important;
+  border-left-color: #52734D !important;
+  border-right-color: #52734D !important;
+  border-bottom-color: #52734D !important;
+  background-color: #52734D !important;
+  height: 3px !important;
+  width: 25% !important;
+  margin: 12px auto !important;
+  color: unset;
+  background-color: unset;
+  border: 1px;
+  opacity: .8;
+}
+
+.title {
+  font-family: 'Passion One', cursive;
+  -webkit-background-clip: text;
+  background: linear-gradient(324.92deg, #3b9418 0%, #52734D 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: 0.03em;
+  font-size: 3em;
+}
+
+.subtitle {
+  font-weight: 400;
+  font-size: 2em;
+}
+
+/* Navbar */
+nav {
+  font-size: 0.9em;
+  letter-spacing: 0.05em;
+}
+
+.navbar-nav .nav-link:hover {
+  font-weight: 550;
+}
+
+.btn-gabung {
+  background-color: #52734D;
+  color: #ffffff;
+  font-weight: bold;
+  text-shadow: 0px 0px 2px black;
+  box-shadow: 0px 0px 2px rgb(179, 116, 0);
+}
+
+.btn-gabung:hover {
+  background-color: #085418;
+  color: #e6e6e6;
+}
+
+/* end Navbar */
+
+/* Carousel */
+.bg-banner {
+  background-color: #52734D;
+  border-radius: 10px;
+  padding: 1.8rem;
+}
+
+/* end Carousel */
+
+/* Konten */
+.konten {
+  margin-top: 100px;
+  line-height: 1;
+}
+
+.market-social .card {
+  border-radius: 50px;
+}
+
+.market-social hr {
+  border-top-color: rgb(255, 255, 250) !important;
+  border-left-color: rgb(255, 255, 250) !important;
+  border-right-color: rgb(255, 255, 250) !important;
+  border-bottom-color: rgb(255, 255, 250) !important;
+  background-color: rgb(255, 255, 250) !important;
+}
+
+.market-social .title {
+  -webkit-background-clip: text;
+  background: linear-gradient(324.92deg, #efffe8 0%, #fffffa 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+.market-social img {
+  width: 100%;
+}
+
+/* end Konten */
+
+/* Footer */
+.footer {
+  width: 100%;
+}
+
+.footer h5 {
+  margin-top: 15px;
+  font-size: 20px;
+  font-family: 'Passion One', cursive;
+  -webkit-background-clip: text;
+  background: linear-gradient(324.92deg, #e4e4e4 0%, #ffffff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.footer p {
+  font-size: 16px;
+  letter-spacing: 0.03em;
+  color: white;
+  margin: unset;
+}
+
+.footer a {
+  color: white;
+  text-decoration: unset;
+}
+
+
+.textFooter {
+  font-size: 16px;
+  /* -webkit-background-clip: text;
+  background: linear-gradient(324.92deg, #e4e4e4 0%, #ffffff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
+  margin-bottom: 30px;
+  margin-left: 10px;
+}
+
+.textFooter a {
+  font-family: 'Passion One', cursive !important;
+}
+
+.textFooter a:hover {
+  color: #858483;
+}
+
+/* end Footer */
+
+@media screen and (max-width: 576px) {
+  .title {
+    font-size: 1.8em;
+  }
+
+  .subtitle {
+    font-size: 1.25em;
+  }
+
+  /* Navbar */
+  #navbarNavDropdown>ul>li,
+  .dropdown-menu>li {
+    text-align: center;
+  }
+
+  .dropdown-menu {
+    background-color: #52734D;
+    border: unset !important;
+    border-radius: 0.50rem !important;
+    margin: unset;
+    margin-bottom: 15px;
+    border-radius: 5px;
+  }
+
+  .dropdown-menu a {
+    color: #ffffff !important;
+  }
+
+  /* end Navbar */
+
+  /* konten */
+  .konten {
+    margin-top: 60px;
+  }
+
+  /* .market-social img {
+    width: 100%;
+  } */
+
+  /* end Konten */
+
+  /* Carousel */
+  .bg-banner {
+    border-radius: 6px;
+    padding: 0.9rem;
+  }
+
+  /* end Carousel */
+}
+
+@media screen and (min-width: 768px) {
+
+  /* Konten */
+  .market-social img {
+    width: 60%;
+  }
+
+  /* end Konten */
+}
+
+@media screen and (min-width: 992px) {
+
+  /* Konten */
+  .market-social img {
+    width: 40%;
+  }
+
+  /* end Konten */
+}
+
+@media screen and (max-width: 1200px) {
+
+  /* Konten */
+  /* .market-social img {
+    width: 40%;
+  } */
+
+  /* end Konten */
+}
+
+/* Page Tentang Kami */
+.tentangkami {
+  line-height: 1.2;
+}
+
+/* end Page Tentang Kami */

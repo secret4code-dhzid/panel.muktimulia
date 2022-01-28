@@ -1,0 +1,36 @@
+CRITICAL - 2022-01-20 03:06:58 --> syntax error, unexpected token "-", expecting "("
+#0 C:\laragon\www\muktimulia\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\...')
+#1 C:\laragon\www\muktimulia\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\laragon\www\muktimulia\vendor\codeigniter4\framework\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#4 C:\laragon\www\muktimulia\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#5 C:\laragon\www\muktimulia\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\muktimulia\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-20 03:08:49 --> syntax error, unexpected token "}", expecting ";"
+#0 C:\laragon\www\muktimulia\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\...')
+#1 C:\laragon\www\muktimulia\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\laragon\www\muktimulia\vendor\codeigniter4\framework\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#4 C:\laragon\www\muktimulia\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#5 C:\laragon\www\muktimulia\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\muktimulia\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-20 03:09:10 --> Invalid file: pages/index.php
+#0 C:\laragon\www\muktimulia\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/index.php')
+#1 C:\laragon\www\muktimulia\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('pages/index', Array, true)
+#2 C:\laragon\www\muktimulia\app\Controllers\Home.php(11): view('pages/index')
+#3 C:\laragon\www\muktimulia\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#4 C:\laragon\www\muktimulia\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\laragon\www\muktimulia\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\muktimulia\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-20 03:09:57 --> Invalid file: pages/index.php
+#0 C:\laragon\www\muktimulia\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/index.php')
+#1 C:\laragon\www\muktimulia\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('pages/index', Array, true)
+#2 C:\laragon\www\muktimulia\app\Controllers\Home.php(11): view('pages/index')
+#3 C:\laragon\www\muktimulia\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#4 C:\laragon\www\muktimulia\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\laragon\www\muktimulia\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\muktimulia\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

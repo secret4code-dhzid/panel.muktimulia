@@ -1,0 +1,20 @@
+{
+  "name": "muktimulia",
+  "version": "1.0.0",
+  "description": "## What is CodeIgniter?",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "cssmini": "npx tailwindcss -o ./public/other/css/style.css",
+    "dev": "npx tailwindcss -i ./public/other/css/input.css -o ./public/other/css/output.css --watch"
+  },
+  "keywords": [],
+  "author": "dhz.id",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.2"
+  },
+  "dependencies": {}
+}

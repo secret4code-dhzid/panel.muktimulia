@@ -1,0 +1,9 @@
+CRITICAL - 2022-01-25 10:39:46 --> Undefined variable $totalTime
+#0 C:\laragon\www\muktimulia\vendor\codeigniter4\framework\system\Debug\Toolbar\Views\toolbar.tpl.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\laragon\\www\\...', 40)
+#1 C:\laragon\www\muktimulia\vendor\codeigniter4\framework\system\Debug\Toolbar.php(501): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\muktimulia\vendor\codeigniter4\framework\system\Debug\Toolbar.php(464): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#3 C:\laragon\www\muktimulia\app\Config\Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#4 C:\laragon\www\muktimulia\vendor\codeigniter4\framework\system\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#5 C:\laragon\www\muktimulia\vendor\codeigniter4\framework\system\CodeIgniter.php(302): CodeIgniter\Events\Events::trigger('pre_system')
+#6 C:\laragon\www\muktimulia\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
